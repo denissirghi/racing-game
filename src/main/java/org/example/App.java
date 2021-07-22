@@ -14,6 +14,13 @@ public class App
         carReference.totalTraveledDistance=0;
         carReference.damaged=true;
         carReference.color="red";
+        Engine engine1= new Engine();
+        engine1.manufacturer="Ferrari";
+        engine1.capacity=3000;
+
+        carReference.engine= engine1;
+         System.out.println("Engine capacity "+ engine1.capacity);
+         System.out.println("Car engine capacity: "+ carReference.engine.capacity);
 
 
          System.out.println("Properties of car " + carReference.name);
